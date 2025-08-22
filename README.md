@@ -14,7 +14,7 @@ O teste de regressão da API foi concluído. A análise técnica revelou que a a
 ### Recursos Adicionais
 
 * **Relatório Completo em PDF:** [Baixar Relatório de Teste Completo](./relatorio_final.pdf)
-* **Documentação Pública no Postman:** [Explorar a Coleção no Postman](https://www.postman.com/seuperfil/workspace/seuespacodetrabalho/collection/suacolecao)
+* **Documentação Pública no Postman:** [Explorar a Coleção no Postman](https://documenter.getpostman.com/view/47661568/2sB3BLjT1G)
 
 Este repositório contém toda a documentação e os recursos de teste do projeto de validação da API. Para uma análise completa, a pasta inclui os seguintes arquivos:
 
