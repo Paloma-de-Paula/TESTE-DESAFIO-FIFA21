@@ -1,4 +1,4 @@
-# TESTE-DESAFIO-FIFA21
+# TESTE/DESAFIO-FIFA21
 # Relatório de Teste de API de Jogadores de Futebol
 
 Este repositório contém o relatório de teste de uma API de jogadores de futebol, com foco na verificação de suas funcionalidades de busca e filtragem.
