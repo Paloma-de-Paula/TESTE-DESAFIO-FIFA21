@@ -11,17 +11,20 @@ O teste de regressão da API foi concluído. A análise técnica revelou que a a
 
 ---
 
-### Análise Técnica
+### Recursos Adicionais
 
-A análise dos resultados aponta para falhas significativas que comprometem a estabilidade e usabilidade da API.
+* **Relatório Completo em PDF:** [Baixar Relatório de Teste Completo](./relatorio_final.pdf)
+* **Documentação Pública no Postman:** [Explorar a Coleção no Postman](https://www.postman.com/seuperfil/workspace/seuespacodetrabalho/collection/suacolecao)
 
-* **Pontos Fortes:** A API é responsiva e retorna dados rapidamente para requisições básicas.
-* **Pontos Fracos:**
-    * **Lógica de Filtragem Quebrada:** Múltiplos endpoints retornam dados incorretos ou listas vazias.
-    * **Inconsistência de Endpoints:** A API carece de endpoints para filtros combinados, como "melhores jogadores K por posição".
-    * **Erros de Formato de Resposta:** Alguns endpoints retornam um tipo de dado incorreto (objeto em vez de array).
-    * **UI Não Resiliente:** A interface do usuário não lida corretamente com as respostas vazias da API, exibindo uma tela em branco em vez de uma mensagem de erro amigável.
+Este repositório contém toda a documentação e os recursos de teste do projeto de validação da API. Para uma análise completa, a pasta inclui os seguintes arquivos:
 
+* **Análise de Bugs:** Um documento detalhado com a descrição de cada bug encontrado, incluindo passos para reprodução, resultados esperados e resultados atuais.
+
+* **Relatório de Teste:** Um relatório técnico completo que resume a metodologia de teste, a análise dos resultados e a conclusão final sobre a qualidade da aplicação.
+
+* **Tabela de Casos de Teste:** Uma visão geral simplificada de todos os casos de teste executados, com o status final de cada funcionalidade.
+
+* **Código de Teste do Postman:** O arquivo de collection (.json) com o código completo dos testes automatizados, permitindo que qualquer pessoa execute e verifique os resultados.
 ---
 
 ### Bugs Encontrados
@@ -45,7 +48,7 @@ Para uma visualização mais rápida, os 8 bugs encontrados estão resumidos na 
 
 Para verificar os resultados, você pode importar a collection do Postman para rodar todos os testes automaticamente.
 
-1.  **Baixe o arquivo de collection** (`api-collection.json`) deste repositório.
+1.  **Baixe o arquivo de collection** deste repositório.
 2.  No Postman, clique em **File > Import** e selecione o arquivo baixado.
 3.  Na sua collection, selecione a pasta **Testes** e clique em **Run**.
 4.  O Postman Runner irá executar todas as requisições e mostrar os resultados dos testes.
